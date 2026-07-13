@@ -48,6 +48,7 @@ class CalculatorMethod {
         System.out.println("2.subtract");
         System.out.println("3. multiply");
         System.out.println("4. divide");
+        System.out.println("5.Exit");
         choice = sc.nextInt();
         switch (choice) {
             case 1:
@@ -62,6 +63,9 @@ class CalculatorMethod {
             case 4:
                 divide();
                 break;
+                case 5:
+                    System.out.println("Thank you");
+                    break;
             default:
                 System.out.println("Inappropriate operator");
                 break;
